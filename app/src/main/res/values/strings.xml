@@ -1,3 +1,132 @@
 <resources>
     <string name="app_name">Hallbooking</string>
+    <string-array name="period">
+        <item>Select period</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="period_adapter">
+        <item>Select period</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="project">
+        <item>Select projector</item>
+        <item>Projector 1 - Canon</item>
+        <item>Projector 2 - Dell</item>
+        <item>Projector 3 - Epson</item>
+        <item>Projector 4 - HP</item>
+        <item>Projector 5 - Hitachi</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>Select Year</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+    </string-array>
+
+    <string-array name="dept">
+        <item>Select Dept</item>
+        <item>CSE</item>
+        <item>Mech</item>
+    </string-array>
+
+    <string-array name="sec">
+        <item>Select Section</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string name="login_btn" translatable="true">Login</string>
+    <string name="request" translatable="true">Request</string>
+    <string name="timetable" translatable="true">Timetable</string>
+    <string name="wrong_user_or_password_combination" translatable="true">wrong_user_or_password_combination</string>
+    <string name="login" translatable="true">Logging in..</string>
+    <string name="logout" translatable="true">Logout</string>
+    <string name="issue" translatable="true">Sorry! Connectivity Issue</string>
+    <string name="get" translatable="true">Getting Timetable</string>
+
+    <string name="hour1">Hour 1</string>
+    <string name="hour2">Hour 2</string>
+    <string name="hour3">Hour 3</string>
+    <string name="hour4">Hour 4</string>
+    <string name="hour5">Hour 5</string>
+    <string name="hour6">Hour 6</string>
+    <string name="hour7">Hour 7</string>
+    <string name="hour8">Hour 8</string>
+    <string name="yyyy_mm_dd">yyyy-mm-dd</string>
+
+    <string name="password" translatable="false">Password</string>
+    <string name="staff_code" translatable="false">Code</string>
+    <string name="delete_request" translatable="true">Cancel Booking!</string>
+    <string name="delete_menu" translatable="true">Cancel Projector</string>
+    <string name="check_connection" translatable="true">Check Your Connection and Retry Later</string>
+    <string name="unknown" translatable="true">Unknown Error!</string>
+    <string name="select_proper_value" translatable="true">Select Proper Value</string>
+    <string name="check_selection" translatable="true">Check your Selection</string>
+    <string name="login_check" translatable="true">StaffCode and Password are required!</string>
+
+    <string name="select_programme">Select Programme</string>
+    <string name="select_time">Select Time</string>
+    <string name="topic">Topic</string>
+    <string name="relevance_to_present_study">Relevance to Present Study</string>
+    <string name="resource_person">Resource Person Details</string>
+    <string name="external_students">External Count</string>
+    <string name="internal_students">Internal Students</string>
+    <string name="external_staff">External Staff</string>
+    <string name="internal_staff">Internal Staff</string>
+    <string name="select_hall">Select Hall</string>
+    <string name="av_requirements">A/V Requirements</string>
+    <string name="laptop">Laptop</string>
+    <string name="lcd_projector">LCD Projector</string>
+    <string name="podium_mic">Podium Mic</string>
+    <string name="hand_mic">Hand Mic</string>
+    <string name="other">Other</string>
+    <string name="photo">Photo Video</string>
+    <string name="mode_of_transport">Mode of Transport</string>
+    <string name="college_transport">College Transport</string>
+    <string name="own_transport">Own Transport</string>
+    <string name="memento">Memento / Bouquets (count)</string>
+    <string name="catering_needs">Catering Needs</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="morning">Morning Snacks Tea</string>
+    <string name="lunch">Lunch</string>
+    <string name="evening">Evening Snacks Tea</string>
+    <string name="count">Count</string>
+    <string name="venue">Venue</string>
+
+    <string name="select_hour" translatable="true">Select Hour</string>
+    <string name="select_projector" translatable="true">Select Projector</string>
+    <string name="select_year" translatable="true">Select Year</string>
+    <string name="select_dept" translatable="true">Select Department</string>
+    <string name="select_section" translatable="true">Select Section</string>
+    <string name="select_date" translatable="true">Select Date</string>
+    <string name="booked_successfully" translatable="true">Booked Successfully</string>
+    <string name="unknown_error" translatable="true">Unknown Error</string>
+    <string name="successfully_deleted" translatable="true">Successfully Deleted</string>
+    <string name="get_projector" translatable="true">Updating Projector list</string>
+    <string name="no_booking" translatable="true">No Booking Still!</string>
+    <string name="close" translatable="true">Are you sure you want to close the app?</string>
+    <string name="exit" translatable="true">Exit</string>
+    <string name="yes" translatable="true">Yes</string>
+    <string name="no" translatable="true">No</string>
+
 </resources>

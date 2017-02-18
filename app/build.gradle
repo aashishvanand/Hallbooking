@@ -17,6 +17,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildTypes.each {
+        it.buildConfigField 'String', 'URL_get', '"https://aws.aashishvanand.me/hall/android/get.php"'
+        it.buildConfigField 'String', 'URL_request', '"https://aws.aashishvanand.me/hall/android/request.php"'
+        it.buildConfigField 'String', 'URL_login', '"https://aws.aashishvanand.me/hall/android/login.php"'
+        it.buildConfigField 'String', 'URL_delete', '"https://aws.aashishvanand.me/hall/android/delete.php"'
+        it.buildConfigField 'String', 'URL_update', '"https://aws.aashishvanand.me/hall/android/update.php"'
+    }
 }
 
 dependencies {
@@ -25,5 +32,20 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support:cardview-v7:25.1.1'
+    compile 'com.android.support:support-v4:25.1.1'
+    compile 'com.android.support:design:25.1.1'
+
+
+    compile 'com.mcxiaoke.volley:library-aar:1.0.1'
+    compile 'com.github.ganfra:material-spinner:1.1.1'
+    compile 'com.code-troopers.betterpickers:library:2.5.3'
+    compile 'joda-time:joda-time:2.9.7'
+
+
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'com.google.firebase:firebase-crash:10.0.1'
+
     testCompile 'junit:junit:4.12'
 }
