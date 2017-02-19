@@ -18,11 +18,11 @@ android {
         }
     }
     buildTypes.each {
-        it.buildConfigField 'String', 'URL_get', '"https://aws.aashishvanand.me/hall/android/get.php"'
-        it.buildConfigField 'String', 'URL_request', '"https://aws.aashishvanand.me/hall/android/request.php"'
-        it.buildConfigField 'String', 'URL_login', '"https://aws.aashishvanand.me/hall/android/login.php"'
-        it.buildConfigField 'String', 'URL_delete', '"https://aws.aashishvanand.me/hall/android/delete.php"'
-        it.buildConfigField 'String', 'URL_update', '"https://aws.aashishvanand.me/hall/android/update.php"'
+        it.buildConfigField 'String', 'URL_get', '"https://aws.aashishvanand.me/hallbooking/android/get.php"'
+        it.buildConfigField 'String', 'URL_request', '"https://aws.aashishvanand.me/hallbooking/android/request.php"'
+        it.buildConfigField 'String', 'URL_login', '"https://aws.aashishvanand.me/hallbooking/android/login.php"'
+        it.buildConfigField 'String', 'URL_delete', '"https://aws.aashishvanand.me/hallbooking/android/delete.php"'
+        it.buildConfigField 'String', 'URL_update', '"https://aws.aashishvanand.me/hallbooking/android/update.php"'
     }
 }
 
@@ -41,11 +41,6 @@ dependencies {
     compile 'com.github.ganfra:material-spinner:1.1.1'
     compile 'com.code-troopers.betterpickers:library:2.5.3'
     compile 'joda-time:joda-time:2.9.7'
-
-
-    compile 'com.google.firebase:firebase-core:10.0.1'
-    compile 'com.google.firebase:firebase-messaging:10.0.1'
-    compile 'com.google.firebase:firebase-crash:10.0.1'
 
     testCompile 'junit:junit:4.12'
 }

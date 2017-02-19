@@ -32,7 +32,7 @@ import fr.ganfra.materialspinner.MaterialSpinner;
 
 public class Request extends AppCompatActivity {
 
-    public static final String PREF = "Projectrequest";
+    public static final String PREF = "Hallbooking";
     Calendar calendar;
     int year, month, day;
     SimpleDateFormat formatter;

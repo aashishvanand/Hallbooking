@@ -8,4 +8,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="check_connection_margin_top">75dp</dimen>
     <dimen name="check_connection_text_size">25sp</dimen>
+    <dimen name="margin_left">5dp</dimen>
 </resources>

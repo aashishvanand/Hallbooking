@@ -31,7 +31,7 @@ import java.util.Map;
 
 public class DetailedView extends AppCompatActivity {
 
-    public static final String PREF = "Projectrequest";
+    public static final String PREF = "Hallbooking";
     CoordinatorLayout coordinatorLayoutMainActivity;
     Snackbar SnackbarMainActivity;
     SessionManager session;

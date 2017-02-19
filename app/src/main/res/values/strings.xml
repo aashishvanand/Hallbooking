@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hallbooking</string>
+    <string name="app_name">Hall Booking</string>
     <string-array name="period">
         <item>Select period</item>
         <item>1</item>
@@ -89,7 +89,7 @@
     <string name="topic">Topic</string>
     <string name="relevance_to_present_study">Relevance to Present Study</string>
     <string name="resource_person">Resource Person Details</string>
-    <string name="external_students">External Count</string>
+    <string name="external_students">External Students</string>
     <string name="internal_students">Internal Students</string>
     <string name="external_staff">External Staff</string>
     <string name="internal_staff">Internal Staff</string>
@@ -104,7 +104,7 @@
     <string name="mode_of_transport">Mode of Transport</string>
     <string name="college_transport">College Transport</string>
     <string name="own_transport">Own Transport</string>
-    <string name="memento">Memento / Bouquets (count)</string>
+    <string name="memento">Memento / Bouquets</string>
     <string name="catering_needs">Catering Needs</string>
     <string name="breakfast">Breakfast</string>
     <string name="morning">Morning Snacks Tea</string>
@@ -112,6 +112,7 @@
     <string name="evening">Evening Snacks Tea</string>
     <string name="count">Count</string>
     <string name="venue">Venue</string>
+    <string name="target_audience">Target Audience</string>
 
     <string name="select_hour" translatable="true">Select Hour</string>
     <string name="select_projector" translatable="true">Select Projector</string>

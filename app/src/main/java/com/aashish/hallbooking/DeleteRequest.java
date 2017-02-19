@@ -30,7 +30,7 @@ import fr.ganfra.materialspinner.MaterialSpinner;
 
 public class DeleteRequest extends AppCompatActivity {
 
-    public static final String PREF = "Projectrequest";
+    public static final String PREF = "Hallbooking";
     SimpleDateFormat formatter;
     String code, dept;
     EditText date1;

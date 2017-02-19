@@ -3,7 +3,6 @@ package com.aashish.hallbooking;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
@@ -12,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.android.volley.*;
-import com.android.volley.Request;
 import com.android.volley.toolbox.StringRequest;
 
 import org.json.JSONException;
@@ -24,12 +22,11 @@ import java.util.Map;
 
 public class Login extends AppCompatActivity {
 
-    public static final String PREF = "Projectrequest";
+    public static final String PREF = "Hallbooking";
     CustomEditText code, password;
     CoordinatorLayout coordinatorLayoutLogin;
     Snackbar SnackbarLogin;
     Button submit;
-    Typeface tf_regular;
     private ProgressDialog pDialog;
     private SessionManager session;
 

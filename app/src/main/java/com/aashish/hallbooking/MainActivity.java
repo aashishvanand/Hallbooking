@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     CoordinatorLayout coordinatorLayoutMainActivity;
     Snackbar SnackbarMain;
     private ProgressDialog pDialog;
-    public static final String PREF = "Projectrequest";
+    public static final String PREF = "Hallbooking";
     String dept;
     static ArrayList<String> dept_projector = new ArrayList<String>();
     SessionManager session;

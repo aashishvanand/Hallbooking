@@ -47,30 +47,38 @@
 
                     <TextView
                         android:id="@+id/day1_month"
+                        android:text="Feb"
+                        android:layout_marginTop="50dp"
+                        android:textSize="40sp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
                         android:gravity="center"
                         android:textColor="@color/white"
-                        android:textSize="40sp" />
+                         />
 
                     <TextView
                         android:id="@+id/day1_day"
                         android:layout_width="wrap_content"
+                        android:text="07"
+                        android:layout_marginTop="35dp"
+                        android:textSize="75sp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
-                        android:textSize="75sp" />
+                         />
 
                     <TextView
                         android:id="@+id/day1_year"
+                        android:text="2017"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="40sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginBottom="15dp"
                         android:textColor="@color/white"
-                        android:textSize="40sp" />
+                         />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -103,7 +111,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:text="Feb"
+                        android:layout_marginTop="50dp"
                         android:gravity="center"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
@@ -112,6 +121,8 @@
                         android:id="@+id/day2_day"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:text="07"
+                        android:layout_marginTop="35dp"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
                         android:textSize="75sp" />
@@ -121,7 +132,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:text="2017"
                         android:layout_marginBottom="15dp"
+                        android:layout_marginTop="30dp"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
@@ -167,9 +180,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+
                         android:gravity="center"
                         android:textColor="@color/white"
+                        android:text="Feb"
+                        android:layout_marginTop="50dp"
                         android:textSize="40sp" />
 
                     <TextView
@@ -178,6 +193,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
+                        android:text="07"
+                        android:layout_marginTop="35dp"
                         android:textSize="75sp" />
 
                     <TextView
@@ -185,9 +202,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:text="2017"
                         android:layout_marginBottom="15dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="40sp"
                         android:textColor="@color/white"
-                        android:textSize="40sp" />
+                         />
 
                 </LinearLayout>
 
@@ -220,10 +240,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:text="Feb"
+                        android:layout_marginTop="50dp"
+                        android:textSize="40sp"
                         android:gravity="center"
                         android:textColor="@color/white"
-                        android:textSize="40sp" />
+                         />
 
                     <TextView
                         android:id="@+id/day4_day"
@@ -231,6 +253,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
+                        android:text="07"
+                        android:layout_marginTop="35dp"
                         android:textSize="75sp" />
 
                     <TextView
@@ -238,8 +262,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginBottom="15dp"
                         android:textColor="@color/white"
+                        android:text="2017"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="30dp"
                         android:textSize="40sp" />
 
                 </LinearLayout>
@@ -282,10 +308,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:text="Feb"
+                        android:layout_marginTop="50dp"
+                        android:textSize="40sp"
                         android:gravity="center"
                         android:textColor="@color/white"
-                        android:textSize="40sp" />
+                         />
 
                     <TextView
                         android:id="@+id/day5_day"
@@ -293,6 +321,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
+                        android:text="07"
+                        android:layout_marginTop="35dp"
                         android:textSize="75sp" />
 
                     <TextView
@@ -300,8 +330,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginBottom="15dp"
                         android:textColor="@color/white"
+                        android:text="2017"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="30dp"
                         android:textSize="40sp" />
 
                 </LinearLayout>
@@ -335,10 +367,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+
                         android:gravity="center"
                         android:textColor="@color/white"
-                        android:textSize="40sp" />
+                        android:text="Feb"
+                        android:layout_marginTop="50dp"
+                        android:textSize="40sp"/>
 
                     <TextView
                         android:id="@+id/day6_day"
@@ -346,6 +380,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
+                        android:text="07"
+                        android:layout_marginTop="35dp"
                         android:textSize="75sp" />
 
                     <TextView
@@ -353,8 +389,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginBottom="15dp"
                         android:textColor="@color/white"
+                        android:text="2017"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="30dp"
                         android:textSize="40sp" />
 
                 </LinearLayout>

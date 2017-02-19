@@ -47,10 +47,11 @@
 
                     <TextView
                         android:id="@+id/day1_month"
+                        android:text="Feb"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="30dp"
                         android:gravity="center"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
@@ -59,6 +60,8 @@
                         android:id="@+id/day1_day"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="07"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
                         android:textSize="75sp" />
@@ -67,7 +70,9 @@
                         android:id="@+id/day1_year"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:text="2017"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
                         android:layout_marginBottom="15dp"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
@@ -103,13 +108,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="30dp"
                         android:gravity="center"
+                        android:text="Feb"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
                     <TextView
                         android:id="@+id/day2_day"
+                        android:layout_marginTop="20dp"
+                        android:text="07"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -121,7 +129,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
                         android:layout_marginBottom="15dp"
+                        android:text="2017"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
@@ -167,8 +177,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="30dp"
                         android:gravity="center"
+                        android:text="Feb"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
@@ -176,6 +187,8 @@
                         android:id="@+id/day3_day"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="07"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
                         android:textSize="75sp" />
@@ -185,7 +198,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
                         android:layout_marginBottom="15dp"
+                        android:text="2017"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
@@ -220,8 +235,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="30dp"
                         android:gravity="center"
+                        android:text="Feb"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
@@ -229,6 +245,8 @@
                         android:id="@+id/day4_day"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="07"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
                         android:textSize="75sp" />
@@ -238,7 +256,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
                         android:layout_marginBottom="15dp"
+                        android:text="2017"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
@@ -282,7 +302,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Feb"
                         android:gravity="center"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
@@ -291,6 +312,8 @@
                         android:id="@+id/day5_day"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="07"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
                         android:textSize="75sp" />
@@ -300,7 +323,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
                         android:layout_marginBottom="15dp"
+                        android:text="2017"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
@@ -335,7 +360,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Feb"
                         android:gravity="center"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
@@ -344,6 +370,8 @@
                         android:id="@+id/day6_day"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="07"
                         android:layout_gravity="center_horizontal"
                         android:textColor="@color/white"
                         android:textSize="75sp" />
@@ -353,7 +381,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
                         android:layout_marginBottom="15dp"
+                        android:text="2017"
                         android:textColor="@color/white"
                         android:textSize="40sp" />
 
