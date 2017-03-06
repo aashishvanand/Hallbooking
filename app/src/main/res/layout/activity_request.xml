@@ -30,7 +30,7 @@
                 android:layout_marginTop="10dp"
                 android:background="#FFFFFF"
                 android:backgroundTint="#FFF"
-                android:popupBackground="@color/list"
+                android:popupBackground="@color/colorPrimary"
                 app:ms_alignLabels="false"
                 app:ms_arrowColor="#FFF"
                 app:ms_arrowSize="16dp"
@@ -46,7 +46,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:textColorHint="@color/white">
 
                 <EditText
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:weightSum="2">
 
             <android.support.design.widget.TextInputLayout
@@ -105,7 +105,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:textColorHint="@color/white">
 
                 <EditText
@@ -122,6 +122,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 android:textColorHint="@color/white">
 
                 <EditText
@@ -137,7 +138,7 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:textColorHint="@color/white">
 
                 <EditText
@@ -153,7 +154,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:textColor="@color/white"
                 android:text="@string/target_audience"/>
 
@@ -161,6 +162,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_marginTop="10dp"
                 android:weightSum="2">
 
                 <android.support.design.widget.TextInputLayout
@@ -246,7 +248,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:background="#FFFFFF"
                 android:backgroundTint="#FFF"
                 android:popupBackground="@color/list"
@@ -267,14 +269,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/av_requirements"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:textColor="@color/white"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:weightSum="3"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <CheckBox
                     android:id="@+id/laptop"
@@ -306,7 +308,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:weightSum="3"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <CheckBox
                     android:id="@+id/hand_mic"
@@ -337,7 +339,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:textColor="@color/white"
                 android:text="@string/mode_of_transport"/>
 
@@ -345,6 +347,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:weightSum="2"
+                android:layout_marginTop="5dp"
                 android:orientation="horizontal">
 
                 <CheckBox
@@ -595,4 +598,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </android.support.design.widget.CoordinatorLayout>

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#1976D2</color>
-    <color name="colorAccent">#03A9F4</color>
-    <color name="lightPrimary">#BBDEFB</color>
-    <color name="secondaryText">#757575</color>
-    <color name="primaryText">#212121</color>
-    <color name="dividerColor">#BDBDBD</color>
+    <color name="colorPrimary">#77479C</color>
+    <color name="colorPrimaryDark">#691A99</color>
+    <color name="colorAccent">#7A1EA1</color>
+    <color name="lightPrimaryColor">#E1BEE7</color>
     <color name="text">#FFFFFF</color>
-    <color name="white">#FFFFFF</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="login">#9C27B0</color>
 
-    <color name="rajalakshmi">#03A9F4</color>
-    <color name="error">#E53935</color>
-    <color name="list">#03A9F4</color>
+    <color name="error">#b20e0f</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_bg">#3e4a56</color>
+    <color name="transparent">#80000000</color>
+    <color name="indigo">#3964C3</color>
+    <color name="rajalakshmi">#7A1EA1</color>
+    <color name="list">#CE93D8</color>
+
 </resources>

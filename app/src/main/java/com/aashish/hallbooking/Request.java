@@ -1,6 +1,8 @@
 package com.aashish.hallbooking;
 
+import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
+import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,7 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.TimePicker;
 
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
@@ -30,18 +34,19 @@ import java.util.Map;
 import fr.ganfra.materialspinner.MaterialSpinner;
 
 
-public class Request extends AppCompatActivity {
+public class Request extends AppCompatActivity implements View.OnClickListener {
 
     public static final String PREF = "Hallbooking";
     Calendar calendar;
-    int year, month, day;
+    int year, month, day,mHour,mMinute;
     SimpleDateFormat formatter;
     String code, dept_pref;
-    EditText date1;
+    EditText date1,fromtime,totime;
     MaterialSpinner programme_spinner, hall_spinner;
     String[] programme_array = {"Guest Lecture","Workshop","FDP","Dept_Meeting","Others"};
     String[] hall_array = {"Seminar Hall - Workshop Block","Mini Seminar Hall - Workshop Block","Conference Hall - Main Block","Seminar Hall - Tifac Core","Class Room - Dept", "Auditorium","AV Hall - Academic Block","Conference Hall - Tifaac Core","Purple Hall - Main Block"};
 
+    TimePicker timePicker;
 
     Button submit;
     Snackbar SnackbarRequest;
@@ -54,7 +59,10 @@ public class Request extends AppCompatActivity {
         setContentView(R.layout.activity_request);
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
-
+        if(getSupportActionBar()!=null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
         coordinatorLayoutRequest = (CoordinatorLayout) findViewById(R.id.coordinatorLayoutRequest);
         calendar = Calendar.getInstance();
         SharedPreferences prefs = getSharedPreferences(PREF, MODE_PRIVATE);
@@ -78,7 +86,12 @@ public class Request extends AppCompatActivity {
         month = calendar.get(Calendar.MONTH);
         day = calendar.get(Calendar.DAY_OF_MONTH);
         date1 = (EditText) findViewById(R.id.date);
+        fromtime = (EditText) findViewById(R.id.fromtime);
+        totime = (EditText) findViewById(R.id.totime);
         submit = (Button) findViewById(R.id.submit);
+
+        fromtime.setOnClickListener(this);
+        totime.setOnClickListener(this);
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -212,6 +225,50 @@ public class Request extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         this.finish();
+    }
+
+
+    @Override
+    public void onClick(View view) {
+        if (view == fromtime) {
+
+            final Calendar c = Calendar.getInstance();
+            mHour = c.get(Calendar.HOUR_OF_DAY);
+            mMinute = c.get(Calendar.MINUTE);
+
+            // Launch Time Picker Dialog
+            TimePickerDialog timePickerDialog = new TimePickerDialog(this,
+                    new TimePickerDialog.OnTimeSetListener() {
+
+                        @Override
+                        public void onTimeSet(TimePicker view, int hourOfDay,
+                                              int minute) {
+
+                            fromtime.setText(hourOfDay + ":" + minute);
+                        }
+                    }, mHour, mMinute, false);
+            timePickerDialog.show();
+        }
+        if (view == totime) {
+
+            // Get Current Time
+            final Calendar c = Calendar.getInstance();
+            mHour = c.get(Calendar.HOUR_OF_DAY);
+            mMinute = c.get(Calendar.MINUTE);
+
+            // Launch Time Picker Dialog
+            TimePickerDialog timePickerDialog = new TimePickerDialog(this,
+                    new TimePickerDialog.OnTimeSetListener() {
+
+                        @Override
+                        public void onTimeSet(TimePicker view, int hourOfDay,
+                                              int minute) {
+
+                            totime.setText(hourOfDay + ":" + minute);
+                        }
+                    }, mHour, mMinute, false);
+            timePickerDialog.show();
+        }
     }
 
 
